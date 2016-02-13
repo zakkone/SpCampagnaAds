@@ -1,0 +1,283 @@
+/*################################################### 
+#      ______     ______            __   _           #
+#     / ____/    / ____/___  ____  / /__(_)__        #
+#    / /    ___ / /   / __ \/ __ \/ //_/ / _ \       #
+#   / /__  /__// /___/ /_/ / /_/ / ,< / /  __/       #
+#   \____/     \____/\____/\____/_/|_/_/\___/ v.1.7  #
+#                                                    #
+#              http://ccookie.codimm.it              #
+#                                                    #
+#   C-Cookie e i futuri aggiornamenti sono gratis!   #
+#                                                    #
+#            Se apprezzi il lavoro svolto            #
+#    ti chiediamo solo un like e/o uno share :-)     #
+#                                                    #
+#           https://www.facebook.com/codimm          #
+#                                                    #
+#                      Grazie!                       #
+#                                                    #
+ ###################################################*/
+
+
+
+/* BANNER STILE 1 */
+
+#ccookie_base_stile1 {
+    max-width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+	background-color: #ffffff;
+	opacity: 1;
+	z-index: 2001;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+	margin-top: 0;
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	border: 1px solid;
+	border-color: #cccccc;
+	}
+
+
+/* BANNER STILE 2 */
+
+#ccookie_base_stile2 {
+    max-width: 50%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 25% 0 0 25%;
+	background-color: #ffffff;
+	opacity: 1;
+	z-index: 2001;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	border: 1px solid;
+	border-color: #cccccc;
+	}
+
+
+/* TITOLO */
+
+#ccookie_titolo {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-align: left;
+	color: #333333;
+	font-weight: 200;
+	padding-top: 0.3em;
+	}
+
+
+/* PULSANTE CHIUSURA BANNER */
+
+#ccookie_chiudi {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #cccccc;
+	border: 1px solid;
+	border-color: #cccccc;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	text-decoration: none;
+	outline: 0;
+	cursor: pointer;
+	}
+
+#ccookie_chiudi:hover {
+	background-color: #b3b3b3;
+}
+
+
+/* TESTO INFORMATIVA BREVE */
+
+#ccookie_informativa {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	color: #333333;
+	padding-top: 0em;
+	line-height: 1.4em;
+	}
+
+
+/* AVVISO LINK COOKIE POLICY */
+
+#ccookie_avviso {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #a94442;
+	text-align: left;
+	padding: 0.5em;
+	background-color: #f2dede;
+	border: 1px solid;
+	border-color: #ebccd1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 0.5em;
+	margin-bottom: 1em;
+	}
+
+
+/* PULSANTE INFORMATIVA ESTESA */
+
+#ccookie_btn_info {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #5197fc;
+	background-color: #ffffff;
+	border: 1px solid;
+	border-color: #ffffff;
+	-webkit-border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+	border-radius: 0.4em;
+	padding: 0.5em;
+	text-decoration: none;
+	outline: 0;
+	cursor: pointer;
+	display: inline-block;
+	}
+
+#ccookie_btn_info:hover {
+	color: #3a77eb;
+}
+
+
+/* PULSANTE OK */
+
+#ccookie_btn_ok {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #5197fc;
+	border: 1px solid;
+	border-color: #5197fc;
+	-webkit-border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+	border-radius: 0.4em;
+	padding: 0.5em;
+	text-decoration: none;
+	outline: 0;
+	cursor: pointer;
+	display: inline-block;
+	}
+
+#ccookie_btn_ok:hover {
+	background-color: #3a77eb;
+}
+
+
+/* OSCURAZIONE DELLA PAGINA PER METTERE IN RISALTO IL BANNER */
+
+#ccookie_sfondo {
+    position:fixed;
+    width: 100%; height: 100%;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+	background-color: #000000;
+	-moz-opacity: 0.50;
+	opacity:.50;
+	filter: alpha(opacity=50);
+	z-index: 2000;
+	}
+
+
+/* TESTO FIRMA PETIZIONE */
+
+#ccookie_pet {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #333333;
+	padding-bottom: 4px;
+	padding-top: 3px;
+	}
+
+#ccookie_pet a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #333333;
+	padding-bottom: 4px;
+	padding-top: 3px;
+	text-decoration: underline;
+	}
+
+
+@media only screen and (max-device-width: 400px) {
+
+
+/* BANNER STILE 1 (MOBILE) */
+
+#ccookie_base_stile1 {
+    max-width: 100%;
+	padding-left: 1em;
+	padding-right: 1em;
+	}
+
+
+/* BANNER STILE 2 (MOBILE) */
+
+#ccookie_base_stile2 {
+    max-width: 100%;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	}
+
+}
+
+
+/* VARIE */
+
+body {
+	margin: 0 auto;
+}
+
+form {
+	padding: 0;
+	margin: 0;
+}
+
+#ccookie_titolo_div {
+	float: left;
+	width: auto;
+	}
+
+#ccookie_chiudi_div {
+	float: right;
+	width: auto;
+	}
+
+#ccookie_top {
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+}
+
+#ccookie_bottom {
+	padding-top: 0.5em;
+}

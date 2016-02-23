@@ -205,3 +205,30 @@ width:670px;
 height:5200px;
 overflow:auto;
 }
+
+.sin{
+    margin:0;
+    padding:0;
+    width:10px;
+    background:transparent;float:left;
+}
+.sin h3{
+    margin:0;
+    padding:0 0 0 10px;
+    font-size: 1.2em;
+    color:#fff;
+}
+
+.des{
+    margin:0;
+    padding:50;
+    width:800px;
+    background:transparent;     float:right;     text-align:left;
+}
+.des h3{
+    margin:0;
+    padding:50 800px 0 0;
+    font-size: 1.2em;
+    color:#fff;   
+}
+

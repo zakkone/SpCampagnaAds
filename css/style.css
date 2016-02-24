@@ -36,6 +36,7 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
+  width: auto;
   color: rgba(255,255,255,.9);
 }
   
@@ -78,6 +79,15 @@ p {
 
 }
 
+.col-servizio {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.col-benefici {
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
 
 .img-responsive,
 .thumbnail > img,
@@ -121,59 +131,59 @@ line-height: 1.6em
 
 .des{
     margin:0;
-    padding:50;
+    padding:0;
     width:800px;
     background:transparent;     float:right;     text-align:left;
 }
 .des h3{
     margin:0;
-    padding:50 800px 0 0;
+    padding:0 800px 0 0;
     font-size: 1.2em;
     color:#fff;
 }
 
-#servizio h5 {
+#scopri h5 {
 font-size: 1.3em;
 line-height: 1.6em;
 }
 
-#servizio2 h5 {
+#scopri2 h5 {
 font-size: 1.3em;
 line-height: 1.6em;
 }
 
-.section-registrazione {
+.section-scarica {
   width: 100%;
   height: 100%;
 }
 
-.registrazione-icon {
+.scarica-icon {
   font-size: 7em;
   margin-top: 60px;
 }
 
-.registrazione-subtitle {
+.scarica-subtitle {
   font-size: 1.3em;
   margin-top: 5%;
 }
 
 
-.btn-registrazione {
+.btn-scarica {
   width: 100%;
 }
 
-.ospita-icon {
+.prenota-icon {
   font-size: 7em;
   margin-top: 60px;
 }
 
-.ospita-subtitle {
+.prenota-subtitle {
   font-size: 1.3em;
   margin-top: 5%;
   line-height: 2em;
 }
 
-.btn-ospita {
+.btn-prenota {
   width: 100%;
 }
 

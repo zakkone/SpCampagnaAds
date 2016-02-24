@@ -78,15 +78,6 @@ p {
 
 }
 
-.col-servizio {
-margin-top: 60px;
-margin-bottom: 0px;
-}
-
-.col-benefici {
-margin-top: 0px;
-margin-bottom: 100px;
-}
 
 .img-responsive,
 .thumbnail > img,
@@ -113,6 +104,32 @@ line-height: 1.6em
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+.sin{
+    margin:0;
+    padding:0;
+    width:10px;
+    background:transparent;float:left;
+}
+.sin h3{
+    margin:0;
+    padding:0 0 0 10px;
+    font-size: 1.2em;
+    color:#fff;
+}
+
+.des{
+    margin:0;
+    padding:50;
+    width:800px;
+    background:transparent;     float:right;     text-align:left;
+}
+.des h3{
+    margin:0;
+    padding:50 800px 0 0;
+    font-size: 1.2em;
+    color:#fff;
 }
 
 #servizio h5 {
@@ -204,31 +221,5 @@ font-size: 60px;
 width:670px;
 height:5200px;
 overflow:auto;
-}
-
-.sin{
-    margin:0;
-    padding:0;
-    width:10px;
-    background:transparent;float:left;
-}
-.sin h3{
-    margin:0;
-    padding:0 0 0 10px;
-    font-size: 1.2em;
-    color:#fff;
-}
-
-.des{
-    margin:0;
-    padding:50;
-    width:800px;
-    background:transparent;     float:right;     text-align:left;
-}
-.des h3{
-    margin:0;
-    padding:50 800px 0 0;
-    font-size: 1.2em;
-    color:#fff;   
 }
 

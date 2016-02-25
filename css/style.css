@@ -32,11 +32,11 @@ p {
 
 }
 
-.parallax-container {
+.parallax-container {    
+  max-width: 100%;
   min-height: 380px;
   line-height: 0;
   height: auto;
-  width: auto;
   color: rgba(255,255,255,.9);
 }
   
@@ -110,6 +110,7 @@ line-height: 1.6em
 }
 
 .icon-block {
+  display: inline-block;
   padding: 0 15px;
 }
 .icon-block .material-icons {
@@ -119,14 +120,12 @@ line-height: 1.6em
 .sin{
     margin:0;
     padding:0;
-    width:10px;
-    background:transparent;float:left;
+    width:30px;
+    height: 30px;
+    background:transparent;
 }
 .sin h3{
-    margin:0;
-    padding:0 0 0 10px;
-    font-size: 1.2em;
-    color:#fff;
+    font-size: 60px;
 }
 
 .des{

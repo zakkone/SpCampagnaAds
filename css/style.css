@@ -116,30 +116,6 @@ line-height: 1.6em
   font-size: inherit;
 }
 
-.sin{
-    margin:0;
-    padding:0;
-    width:30px;
-    height: 30px;
-    background:transparent;
-}
-.sin h3{
-    font-size: 60px;
-}
-
-.des{
-    margin:0;
-    padding:0;
-    width:800px;
-    background:transparent;     float:right;     text-align:left;
-}
-.des h3{
-    margin:0;
-    padding:0 800px 0 0;
-    font-size: 1.2em;
-    color:#fff;
-}
-
 #scopri h5 {
 font-size: 1.3em;
 line-height: 1.6em;

@@ -8,6 +8,8 @@
 
 body {
   font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0px;
 }
 
 nav ul a,

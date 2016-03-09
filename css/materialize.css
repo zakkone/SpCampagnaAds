@@ -2091,7 +2091,8 @@ img.responsive-img, video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px; }
+  /*height: 500px;}*/
+  height: auto;}
 
 .parallax {
   position: absolute;
@@ -2107,6 +2108,9 @@ img.responsive-img, video.responsive-video {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    /*
+    max-width: 732px;
+    */
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     transform: translateX(-50%); }
@@ -2130,7 +2134,7 @@ ul.staggered-list li {
 /*********************
   Media Query Classes
 **********************/
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 100%) {
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important; } }
 

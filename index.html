@@ -141,51 +141,64 @@
           </div>
           <div class="row">
                <div class="input-field col s12 l6 offset-l3">
-    <!-- SendinBlue Signup Form HTML Code sostituire il codice seguente con il proprio -->
-                    <div id="sib_embed_signup">
-                        <div class="wrapper">
-                            <input type="hidden" id="sib_embed_signup_lang" value="it">
-                                <input type="hidden" id="sib_embed_invalid_email_message" value="Email non valida, Riprova.">
-                                    <div id="sib_loading_gif_area" style="position: absolute;z-index: 9999;display: none;">
-                                        <img src="https://my.sendinblue.com/public/theme/version3/images/loader_sblue.gif" style="display: block;margin-left: auto;margin-right: auto;position: relative;top: 40%;">
-                                    </div>
-         
-                                <form class="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/262o2/id/8" onsubmit="return false;">
-         
-                                    <input type="hidden" name="js_id" id="js_id" value="262o2"><input type="hidden" name="listid" id="listid" value="10">
-                                        <input type="hidden" name="from_url" id="from_url" value="yes">
-                                            <input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="">
-           
-                                    <input name="req_hid" id="req_hid" value="" type="hidden">
-            
-                                    <input name="email" id="email" value="" type="text" class="validate white center black-text" placeholder="Inserisci qui la tua email!">
-  
-                                    <button class="btn btn-scarica waves-effect waves-light red lighten-1" type="submit" data-editfield="subscribe" name="action">Scarica il PDF GRATIS</button>
-
-                                    <p><center><img src="images/lucchetto.png" alt="privacy" style="max-width: 16px; max-height: 16px;"> 100% Sicuro. Odio lo Spam.</p></center>
-                                    
-
-                                    <div class="container rounded"style="position: absolute;top:150px;left:75px;"></div>
-                                </form>
-                        </div> <!-- end wrapper -->
-                    </div> <!-- sib_embed_signup -->
-                    <!--<div class="row center">
-                        <h5 class=><br><br><br><br></h5>
-                    </div>-->
-                    <script type="text/javascript" src="https://my.sendinblue.com/public/theme/version3/js/subscribe-validate.js;">
+                   <!-- SendinBlue Signup Form HTML Code -->
+                    <div id="sib_embed_signup" style="padding: 10px;">
+                       <div class="wrapper" style="position:relative;margin-left: auto;margin-right: auto;">
+                           <input type="hidden" id="sib_embed_signup_lang" value="it">
+                               <input type="hidden" id="sib_embed_invalid_email_message" value="Questa email non sembra valida, riprova.">
+                                   <input type="hidden" name="primary_type" id="primary_type" value="email">
+                                       <div id="sib_loading_gif_area" style="position: absolute;z-index: 9999;display: none;">
+                                           <img src="http://img.mailinblue.com/new_images/loader_sblue.gif" style="display: block;margin-left: auto;margin-right: auto;position: relative;top: 40%;">
+                                               </div>
+                                       <form class="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/2e0yx/id/1" onsubmit="return false;">
+                                           <input type="hidden" name="js_id" id="js_id" value="2e0yx"><input type="hidden" name="listid" id="listid" value="2"><input type="hidden" name="from_url" id="from_url" value="yes"><input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="">
+                                               <div class="container rounded">
+                                                   
+                                                   <input type="hidden" name="req_hid" id="req_hid" value="~NOME" style="font-size: 13px;">
+                                                       <div class="header" style="padding:0 20px;">
+                                                           <h1 class="title editable" data-editfield="newsletter_name"  style="font-weight: normal; text-align: left; font-size: 45px; margin-bottom: 2px; padding: 0px; margin-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: rgb(35, 35, 35); display: none;">La mia Newsletter</h1>
+                                                           <h3 id="company-name"  style="font-weight: normal; text-align: left; font-size: 25px; margin-bottom: 12px; padding: 0px; margin-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); display: none;">Per</h3>
+                                                       </div>
+                                                       <div class="description editable" data-editfield="newsletter_description"  style="padding: 0px 20px 15px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(204, 204, 204); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-size: 17px;">Inserisci i dati per scaricare il PDF GRATIS (Nome e Email obbligatori)</div>
+                                                       <div class="view-messages" style=" margin:5px 0;"> </div>
+                                                       <!-- an email as primary -->
+                                                       <div class="primary-group email-group forms-builder-group ui-sortable" style="">
+                                                           
+                                                           <div class="row" style="padding:10px 20px; font-size:17px; position:relative;"><div class="lbl-tinyltr"  style="clear:both; float:none;">Nome<red style="color:#ff0000;">*</red></div>											<input type="text" name="NOME" id="NOME" value="" style="display:block; float:left; margin-right:3%; min-width:auto; width:90%; padding:10px 4px; border:1px solid #ccc; -moz-border-radius:4px; border-radius:4px; -webkit-border-radius:4px; font-size:13px;">										    <div class="clear" style="clear:both;"></div>										    <div class="hidden-btns">											<a class="btn move" href="#"><i class="icon-move"></i></a><br>											<a class="btn btn-danger delete" href="#"><i class="icon-white icon-trash"></i></a>										</div>									</div><div class="row" style="padding: 10px 20px; font-size: 17px; position: relative;"><div class="lbl-tinyltr"  style="clear:both; float:none;">Cognome</div>											<input type="text" name="COGNOME" id="COGNOME" value="" style="display:block; float:left; margin-right:3%; min-width:auto; width:90%; padding:10px 4px; border:1px solid #ccc; -moz-border-radius:4px; border-radius:4px; -webkit-border-radius:4px; font-size:13px;">										    <div class="clear" style="clear:both;"></div>										    <div class="hidden-btns">											<a class="btn move" href="#"><i class="icon-move"></i></a><br>											<a class="btn btn-danger delete" href="#"><i class="icon-white icon-trash"></i></a>										</div>									</div><div class="row mandatory-email" style="padding: 10px 20px; position: relative; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-size: 17px;">
+                                                               <div class="lbl-tinyltr"  style="clear: both; float: none; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Email<red style="color:#ff0000;">*</red></div>
+                                                               <input type="text" name="email" id="email" value="" style="padding: 10px 4px; width: 90%;">
+                                                                   <div style="clear:both;"></div>
+                                                                   <div class="hidden-btns">
+                                                                       <a class="btn move" href="#"><i class="icon-move"></i></a><br>
+                                                                       <!--<a class="btn btn-danger delete"  href="#"><i class="icon-white icon-trash"></i></a>-->
+                                                                   </div>
+                                                                   </div></div>
+                                                       <!-- end of primary -->
+                                                       <div class="byline" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-weight: bold; font-size: 17px; text-align: center;">
+                                                           <button class="button editable " type="submit" data-editfield="subscribe"  style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: rgb(255, 255, 255); background-color: rgb(5, 5, 5); display: inline-block; white-space: nowrap; min-height: 40px; margin: 0px 5px 0px 0px; padding: 0px 22px; text-decoration: none; text-transform: uppercase; text-align: center; font-weight: bold; font-style: normal; font-size: 14px; cursor: pointer; border: 0px; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; vertical-align: top; height: auto; line-height: 150%; background-position: initial initial; background-repeat: initial initial;">Iscriviti</button></div>
+                                                       <div style="clear:both;"></div>
+                                                       </div>
+                                               </form>
+                                       </div>
+                   </div>
+                   <script type='text/javascript' src='https://my.sendinblue.com/public/theme/version3/js/subscribe-validate.js'>
                     </script>
-                    <script type='text/javascript'>
-                        jQuery.noConflict(true);
-                    </script>
-        <!-- End : SendinBlue Signup Form HTML Code -->
-                </div> <!-- end input-field -->
+                       <script type='text/javascript'>
+                       jQuery.noConflict(true);
+                       </script>
+                       <!-- End : SendinBlue Signup Form HTML Code -->               
+                       </div>
+                       <!-- end input-field -->
 
             </div> <!-- end row -->
         </div> <!-- end container -->
     </div> <!-- end section-scarica no-pad-bot -->
     <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 2"></div>
 
-  </div> <!-- end scarica -->
+  </div> 
+  
+  
+  <!-- end scarica -->
 
   <!-- Offerte -->
   <div id="prenota" class="container">
@@ -193,7 +206,7 @@
       <div class="row">
         <div class="col s12 center">
           <h3>Prenota una consulenza GRATUITA!</h3>
-          <h5 class="col s12 prenota-subtitle">Non hai voglia o tempo di leggere il PDF? Ti capisco... <br>Se preferisci parlare di persona(lo preferirei anche io), contattami; specifica se vuoi una consulenza sul benessere in generale o benessere della pelle in particolare.<br>La consulenza sarà GRATUITA.
+          <h5 class="col s12 prenota-subtitle">Non hai voglia o tempo di leggere il PDF? Ti capisco... <br>Se preferisci parlare di persona (lo preferirei anche io), contattami; specifica se vuoi una consulenza sul benessere in generale o benessere della pelle in particolare.<br>La consulenza sarà GRATUITA.
           <br>
           Ti ricontatterò al più presto.</h5>
           <a class="col l6 offset-l3 btn btn-prenota waves-effect waves-light red lighten-1" href="mailto:pierluigi.spalletta@gmail.com?subject=Voglio%20una%20consulenza sul benessere/benessere della pelle" data-mode="2" target="_blank">Prenota una consulenza gratuita</a>

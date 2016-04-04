@@ -1,3 +1,4 @@
+<?php
 <!-- Utilizzo di CCookie, uno script per bloccare i Cookie; viene sbloccato solo con il consenso dl visitatore del sito-->
 <? require_once "ccookie.php"; ?>
 <!DOCTYPE html>
@@ -231,3 +232,4 @@ return false;
   </body>
 </html>
 <? ccookie(); ?>
+<?

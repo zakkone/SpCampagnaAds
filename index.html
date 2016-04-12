@@ -241,7 +241,18 @@ return false;
 </script>
 
 <!-- Banner dei cookie-->
-<script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>
-
+<!--<script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>-->
+<script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {
+        cookiePolicyId: 7826302,
+        siteId: 526594,
+        lang: "it"
+    };
+(function (w, d) {
+ var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/cookie_solution/beta/iubenda_cs.js"; tag.parentNode.insertBefore(s, tag); };
+ if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; }
+	})(window, document);
+    </script>
   </body>
 </html>
